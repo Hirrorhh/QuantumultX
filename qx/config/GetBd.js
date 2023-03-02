@@ -4,7 +4,7 @@
 hostname=czapp.bestpay.com.cn
 
 [rewrite_local]
-^https?:\/\/czapp\.bestpay\.com\.cn url script-request-body https://github.com/Hirrorhh/QuantumultX/blob/master/qx/config/GetBd.js
+^https?:\/\/czapp\.bestpay\.com\.cn url script-request-body https://raw.githubusercontent.com/Hirrorhh/QuantumultX/master/qx/config/GetBd.js
 * */
 
 const $ = new Env('中国电信获取body');
